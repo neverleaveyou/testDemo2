@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>拼优鲜</title>
+    <link rel="stylesheet/less" href="css/index.less">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script src="js/less.js"></script>
+    <script src="js/zepto.js"></script>
+   
+    <!-- <script src="js/swipe.js"></script> -->
+    <style>
+    .swipe {
+        overflow: hidden;
+        visibility: hidden;
+        position: relative;
+    }
+    
+    .swipe-wrapper {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .swipe-wrapper > li {
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+    
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="viewport">
+        <!-- 顶部头部 -->
+        <div class="toppart">
+            <a href="###">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </a>
+            <!-- <img src="images/topimg.jpg" alt=""> -->
+            <span class="search"><a href="###"></a></span>
+        </div>
+        <!-- 顶部轮播图 -->
+        <div class="swiper-container swiper-container-horizontal one">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-active" style="width: 375px;"><img src="images/banner1.jpg" alt=""></div>
+                <div class="swiper-slide swiper-slide-next" style="width: 375px;"><img src="images/banner1.jpg" alt=""></div>
+                 <div class="swiper-slide" style="width: 375px;"><img src="images/banner1.jpg" alt=""></div>
+                <div class="swiper-slide" style="width: 375px;"><img src="images/banner1.jpg" alt=""></div>
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination enen swiper-pagination-clickable swiper-pagination-bullets">
+                <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+           
+            </div>
+        </div>
+        <!-- 顶部菜单 -->
+        <div class="menu">
+            <div class="menukind">
+                <a href="###">
+                    <img src="images/baicai.jpg" alt="">
+                    <span>生鲜蔬果</span>
+                </a>
+                <a href="###">
+                    <img src="images/meiwei.jpg" alt="">
+                    <span>美味佳肴</span>
+                </a>
+                <a href="###">
+                    <img src="images/luxun.jpg" alt="">
+                    <span>卤熏最爱</span>
+                </a>
+                <a href="###">
+                    <img src="images/quan.jpg" alt="">
+                    <span>纯然众筹</span>
+                </a>
+            </div>
+            <div class="menukind">
+                <a href="###">
+                    <img src="images/lipin.jpg" alt="">
+                    <span>礼品卡</span>
+                </a>
+                <a href="###">
+                    <img src="images/jiaru.jpg" alt="">
+                    <span>加入纯然</span>
+                </a>
+                <a href="###">
+                    <img src="images/yuiyuan.jpg" alt="">
+                    <span>会员互动</span>
+                </a>
+                <a href="###">
+                    <img src="images/tequan.jpg" alt="">
+                    <span>特权专区</span>
+                </a>
+            </div>
+        </div>
+        <!-- 类别分类 -->
+        <div class="fenlei">
+            <div class="swiper-container hehe">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide swiper-slide-active" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/rou.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide swiper-slide-next" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/qin.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/rou.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/qin.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/rou.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/qin.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/rou.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/qin.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/rou.jpg" alt=""></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/qin.jpg" alt=""></a>0</li>
+                </ul>
+            </div>
+        </div>
+        <!-- 每日好货 -->
+        <div class="every-goods">
+            <div class="seafood">
+                <a href="###" class="produce">
+                    <h4>有好货</h4>
+                    <span>海鲜套餐</span>
+                </a>
+            </div>
+            <div class="goods-right">
+                <ul>
+                    <li>
+                        <a href="###">
+                            <div class="shoufa">
+                                <h5>每日首发</h5>
+                                <span>营养搭配</span>
+                            </div>
+                            <img src="images/goodstop.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="###">
+                            <div class="shoufa">
+                                <h5>今日特惠</h5>
+                                <span>￥<em>96</em><del>￥250</del></span>
+                            </div>
+                            <img src="images/goodsbot.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 美味佳肴部分 -->
+        <div class="delicious">
+            <p class="mei"><span class="item"></span>美味佳肴<span class="item one"></span></p>
+            <div class="swiper-container ">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide swiper-slide-active" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/80year.jpg" alt=""><p>80年代天然味道农家小菜</p></a>
+                    </li>
+                    <li class="swiper-slide swiper-slide-next" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/weekend.jpg" alt=""><p>周末狂欢节</p></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/80year.jpg" alt=""><p>80年代天然味道农家小菜</p></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/weekend.jpg" alt=""><p>周末狂欢节</p></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/80year.jpg" alt=""><p>80年代天然味道农家小菜</p></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/weekend.jpg" alt=""><p>周末狂欢节</p></a>
+                    </li>
+                    <li class="swiper-slide" style="width: 105px; margin-right: 30px;">
+                        <a href="###"><img src="images/80year.jpg" alt=""><p>80年代天然味道农家小菜</p></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- 专题推荐部分 -->
+        <div class="subject">
+            <!-- 上部阴影 -->
+            <div class="subject-topshadow"></div>
+            <p class="recommend"><span class="item"></span>专题推荐<span class="item one"></span></p>
+            <ul class="subject-produce">
+                <li><a href="###">
+                    <img src="images/菌类.jpg" alt="">
+                    <div class="collocation">
+                        <div class="collocation-details">
+                            <p class="details-one">健康搭配<i class="one">AB套餐</i><i class="two">任意选择</i></p>
+                            <p class="details-two">内蒙古精选牛肉</p>
+                            <p class="details-three">预计6.31日按顺序发货</p>
+                            <p class="details-four">￥96 <em>/1500g</em></p>
+                        </div>
+                    </div>
+                    </a></li>
+                <li><a href="###">
+                    <img src="images/菌类.jpg" alt="">
+                    <div class="collocation">
+                        <div class="collocation-details">
+                            <p class="details-one">健康搭配<i class="one">AB套餐</i><i class="two">任意选择</i></p>
+                            <p class="details-two">内蒙古精选牛肉</p>
+                            <p class="details-three">预计6.31日按顺序发货</p>
+                            <p class="details-four">￥96 <em>/1500g</em></p>
+                        </div>
+                    </div>
+                    </a></li>
+                <li><a href="###">
+                    <img src="images/菌类.jpg" alt="">
+                    <div class="collocation">
+                        <div class="collocation-details">
+                            <p class="details-one">健康搭配<i class="one">AB套餐</i><i class="two">任意选择</i></p>
+                            <p class="details-two">内蒙古精选牛肉</p>
+                            <p class="details-three">预计6.31日按顺序发货</p>
+                            <p class="details-four">￥96 <em>/1500g</em></p>
+                        </div>
+                    </div>
+                    </a></li>
+            </ul>
+            <!-- 下部阴影 -->
+            <div class="subject-botshadow"></div>
+        </div>
+        <!-- 精品专区部分 -->
+        <div class="Boutique">
+            <p class="Boutique-part"><span class="item"></span>精品专区<span class="item one"></span></p>
+            <div class="Boutique-top">
+                <img src="images/解暑绿色.jpg" alt="">
+                <div class="top-bootom">
+                    <p>夏日下火解暑绿色利器，这个夏天我们不会中暑</p>
+                    <h5>￥96</h5>
+                </div>
+            </div>
+            <div class="Boutique-bot">
+                <img src="images/解暑绿色1.jpg" alt="">
+                <div class="top-bootom">
+                    <p>夏日下火解暑绿色利器，这个夏天我们不会中暑</p>
+                    <h5>￥96</h5>
+                </div>
+            </div>
+            <div class="Boutique-botshadow"></div>
+        </div>
+        <!-- 结束部分 -->
+        <div class="last-part">
+            <ul class="last-ul">
+                <li><a class="active" href="###">首页</a></li>
+                <li><a href="###">分类</a></li>
+                <li><a href="###">购物车</a></li>
+                <li><a href="###">会员中心</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script>
+    var swipertwo = new Swiper('.swiper-container-horizontal', {
+        autoplay : 2000,
+        autoplayDisableOnInteraction : false,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        loop: true,
+    });
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween:30
+    });
+   
+    </script>
+</body>
+
+</html>
